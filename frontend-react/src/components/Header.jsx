@@ -28,7 +28,12 @@ const Header = () => {
               {isLoggedIn ? (
                 // <span className='text-light'>Logout</span>
                 // <Button text='Logout' class='btn-danger' />
-                <button className='btn btn-outline-danger' onClick={handleLogout}>Logout</button>
+                <>
+                  <Button text='Dashboard' url="/dashboard" class="btn-outline-warning"/>
+                  &nbsp;
+                  &nbsp;
+                  <button className='btn btn-outline-danger' onClick={handleLogout}>Logout</button>
+                </>
               ) :
               
                 <>

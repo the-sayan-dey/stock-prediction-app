@@ -34,7 +34,7 @@ const Main = () => {
                 <p className='text-light lead'>Empowering smarter investments with AI-driven insights, our stock prediction app helps you stay ahead of market trends, minimize risks, and unlock opportunities for consistent growth and financial success.</p>
 
 
-                {isLoggedIn ? (
+                {/* {isLoggedIn ? (
 
                     <button className='btn btn-danger' onClick={handleLogout}>Logout</button>
                 ) : 
@@ -45,8 +45,12 @@ const Main = () => {
                   &nbsp;
                   <Button text='Register' url="/register" class="btn-warning"/>
                 </>
+
                 
-                }
+                
+                } */}
+
+                <Button text="Explore Now" class="btn-info" url="/dashboard" />
 
                 
             </div>

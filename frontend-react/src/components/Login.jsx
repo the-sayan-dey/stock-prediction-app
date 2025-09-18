@@ -32,7 +32,7 @@ const Login = () => {
 
       setIsLoggedIn(true)
 
-      navigate('/')
+      navigate('/dashboard')
     } catch(error){
       console.log('Invalid credentials')
       setError('Invalid credentials...')
