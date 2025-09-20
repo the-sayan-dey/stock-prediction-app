@@ -27,3 +27,6 @@ A Stock Prediction Application, built using React JS and Django. Features of the
 
    **Output 2**
     ![Home page](project-images/op2.png)
+
+   **Output 3**
+   ![Home page](project-images/op3.png)
